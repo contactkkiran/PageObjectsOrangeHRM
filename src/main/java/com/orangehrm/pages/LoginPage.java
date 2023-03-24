@@ -9,6 +9,7 @@ import com.orangehrmtest.BaseTest;
 
 public class LoginPage{
 	WebDriver driver;
+PageFactory.init(loginPage.Class,driver)
 	/**
 
      * All WebElements are identified by @FindBy annotation
